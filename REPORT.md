@@ -28,7 +28,13 @@
 6. This will return a JSON object containing two fields: 
     * `access_token : the access token for the app, kept secure in .env`
     * `expires_in : the number of seconds remaining until the token expires`
-7. Authenticated API requests can now be made on behalf of the member by including an Authorization header in the HTTP call to LinkedIn's API
+7. Authenticated API requests can now be made on behalf of the member by including an Authorization header in the HTTP call to LinkedIn's API:
+```
+GET /v2/me HTTP/1.1
+Host: api.linkedin.com
+Connection: Keep-Alive
+Authorization: Bearer {access_token}
+```
 ![sampleReq](assets/samplereq.png)
 
 ##### Pros
