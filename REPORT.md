@@ -35,7 +35,6 @@ Host: api.linkedin.com
 Connection: Keep-Alive
 Authorization: Bearer {access_token}
 ```
-![sampleReq](assets/samplereq.png)
 
 ##### Pros
   * Detailed step-by-step documentation
