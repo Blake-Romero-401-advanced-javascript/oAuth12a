@@ -3,7 +3,7 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
-let SECRET = process.env.JWT_SECRET;
+let SECRET = process.env.CEO_SECRET;
 
 let db = {};
 
