@@ -3,7 +3,7 @@
 ***
 
 ## OAuth Comparative Analysis
-***
+
 ### LinkedIn
 *** 
 #### Research Conducted By:
