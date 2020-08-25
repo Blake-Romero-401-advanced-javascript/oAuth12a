@@ -14,13 +14,14 @@
 
   <script>
 
-    let URL = "https://github.com/login/oauth/authorize";
+    let URL = "https://api.linkedin.com/v2/me";
 
     let options = {
-      client_id: '772ddb30cdab321939f7',
+      response_type: 'code',
+      client_id: '77leb7ao48awyr',
       redirect_uri: 'http://localhost:3000/oauth',
-      scope: 'read:user',
-      state: '401appconsent'
+      scope: 'r_liteprofile%20r_emailaddress%20w_member_social',
+      state: '401appconsent',
     }
 
     let QueryString = Object.keys(options).map((key) => {
