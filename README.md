@@ -1,11 +1,7 @@
 # oAuth12a
-***
-***
 
-## OAuth Comparative Analysis
+## OAuth Comparative Analysis: LinkedIn
 
-### LinkedIn
-*** 
 #### Research Conducted By:
 * Brandon Gibbs
 * Cas Ibrahim
